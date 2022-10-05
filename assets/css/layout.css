@@ -1,0 +1,103 @@
+/* layout.css - Applies the layout */
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	width: 100%;
+	max-width: 1000px;
+}
+
+/* Grid setup */
+.l-grid {
+	display: grid;
+	grid: auto / repeat(9, 1fr);
+}
+
+.l-grid > section {
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.l-grid > section:has(h2 + ul),
+.l-grid > section:has(h2 + p) {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+/*  Grid classes */
+.l-grid-circle {
+	grid-column: 1 / -1;
+	grid-row: 1 / 4;
+}
+
+.l-grid-top-left {
+	grid-column: 1 / span 4;
+	grid-row: 1;
+	margin-top: 1rem;
+}
+
+.l-grid-top-middle {
+	grid-column: 5 / span 1;
+	grid-row: 1;
+	margin-top: 1rem;
+}
+
+.l-grid-top-right {
+	grid-column: 6 / span 4;
+	grid-row: 1;
+	margin-top: 1rem;
+}
+
+.l-grid-middle {
+	grid-column: 1 / span 9;
+	grid-row: 2;
+}
+
+.l-grid-bottom-left {
+	grid-column: 1 / span 9;
+	grid-row: 4;
+	margin-bottom: 1rem;
+}
+
+.l-grid-bottom-middle {
+	grid-column: 1 / span 9;
+	grid-row: 3;
+	margin-bottom: 1rem;
+}
+
+.l-grid-bottom-right {
+	grid-column: 1 / span 9;
+	grid-row: 5;
+	margin-bottom: 1rem;
+}
+
+.l-grid-footer {
+	grid-column: 1 / span 9;
+}
+
+@media screen and (min-width: 600px) {
+	.l-grid > section {
+		padding: 1.5rem;
+	}
+
+	.l-grid-bottom-left {
+		grid-column: 1 / span 2;
+		grid-row: 3;
+	}
+
+	.l-grid-bottom-middle {
+		grid-column: 3 / span 5;
+		grid-row: 3;
+	}
+
+	.l-grid-bottom-right {
+		grid-column: 8 / span 2;
+		grid-row: 3;
+	}
+}

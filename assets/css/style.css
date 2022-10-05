@@ -1,0 +1,21 @@
+/* style.css - Imports all css related resources */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,700;1,300&family=Dancing+Script&display=swap");
+
+/* Main Files */
+@import url("variables.css");
+@import url("base.css");
+@import url("layout.css");
+@import url("utilities.css");
+
+/* Modules */
+@import url("modules/circle.css");
+@import url("modules/header.css");
+@import url("modules/venue.css");
+@import url("modules/time.css");
+@import url("modules/subject.css");
+@import url("modules/title.css");
+@import url("modules/details.css");
+@import url("modules/list.css");
+@import url("modules/footer.css");

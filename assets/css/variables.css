@@ -1,0 +1,36 @@
+/* variables.css - CSS global variables */
+:root {
+	/* Fonts */
+	--font-family-primary: "Cormorant", serif;
+	--font-family-secondary: "Dancing Script", cursive;
+
+	/* Font weights */
+	--font-weight-light: 300;
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+
+	/* Font sizes for general use */
+	--font-size-sm: clamp(0.7rem, 2vw, 1rem);
+	--font-size-md: clamp(0.7rem, 3vw, 1.7rem);
+	--font-size-lg: clamp(1rem, 5vw, 3rem);
+
+	/* Font sizes for details module */
+	--font-size-details-sm: clamp(1rem, 2vw, 1.5rem);
+	--font-size-details-md: clamp(1.2rem, 3vw, 1.5rem);
+	--font-size-details-lg: clamp(1.5rem, 4vw, 3rem);
+	--font-size-details-xl: clamp(5rem, 10vw, 7rem);
+
+	/* Font sizes for list module */
+	--font-size-list-sm: clamp(0.7rem, 2vw, 0.9rem);
+	--font-size-list-md: clamp(1.2rem, 3vw, 1.5rem);
+
+	/* Colors */
+	--color-gradient-outer: rgba(52, 107, 108, 0.474);
+	--color-gradient-inner: rgba(155, 140, 105, 0.3);
+	--color-misc: rgb(165, 228, 230);
+	--color-link-hover: cadetblue;
+
+	/* Borders */
+	--border-thin: thin solid black;
+	--border-thick: thick double black;
+}
