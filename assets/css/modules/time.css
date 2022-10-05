@@ -1,0 +1,5 @@
+/* time.css - Time module styling */
+.time {
+	font-size: var(--font-size-sm);
+	writing-mode: vertical-rl;
+}

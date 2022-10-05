@@ -1,0 +1,7 @@
+/* subject.css - Subject module styling */
+.subject {
+	font-size: var(--font-size-md);
+}
+.subject h2 {
+	word-break: break-word;
+}

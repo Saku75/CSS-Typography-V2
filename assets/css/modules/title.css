@@ -1,0 +1,4 @@
+/* title.css - Title module styling */
+.title {
+	font-size: var(--font-size-md);
+}

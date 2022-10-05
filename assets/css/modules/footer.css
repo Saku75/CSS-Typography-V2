@@ -1,0 +1,23 @@
+/* footer.css - Footer module styling */
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-size: var(--font-size-sm);
+	border-top: var(--border-thin);
+}
+
+footer p {
+	width: 100%;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+@media screen and (min-width: 600px) {
+	footer {
+		flex-direction: row;
+	}
+	footer p:first-child {
+		border-right: var(--border-thin);
+	}
+}

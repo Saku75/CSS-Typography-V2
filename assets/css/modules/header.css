@@ -1,0 +1,22 @@
+/* header.css - Header module styling */
+header {
+	display: flex;
+	justify-content: center;
+
+	text-align: center;
+
+	font-size: var(--font-size-lg);
+
+	margin: 1rem 0;
+}
+
+header span::first-line {
+	font-style: italic;
+	text-transform: lowercase;
+}
+
+@media screen and (min-width: 600px) {
+	header h1 {
+		width: 55%;
+	}
+}

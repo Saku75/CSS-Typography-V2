@@ -1,0 +1,15 @@
+.circle {
+	display: none;
+	background: var(--color-misc);
+	mix-blend-mode: multiply;
+	margin: 0 auto;
+	width: 80%;
+	aspect-ratio: 1/1;
+	border-radius: 50%;
+}
+
+@media screen and (min-width: 600px) {
+	.circle {
+		display: block;
+	}
+}

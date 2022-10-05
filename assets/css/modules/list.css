@@ -1,0 +1,16 @@
+/* list.css - List module styling */
+.list h2 {
+	font-size: var(--font-size-list-md);
+	font-style: italic;
+	padding-bottom: 1rem;
+}
+
+.list ul {
+	font-size: var(--font-size-list-sm);
+	padding-bottom: 1rem;
+	border-bottom: var(--border-thin);
+}
+
+.list li {
+	padding-bottom: 0.5rem;
+}
