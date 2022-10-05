@@ -1,0 +1,47 @@
+/* utilities.css - Contains all utility classes */
+
+/* Font and text */
+.normalcase {
+	text-transform: none;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.font-secondary {
+	font-family: var(--font-family-secondary);
+}
+
+.font-weight-light {
+	font-weight: var(--font-weight-light);
+}
+.font-weight-normal {
+	font-weight: var(--font-weight-normal);
+}
+.font-weight-bold {
+	font-weight: var(--font-weight-bold);
+}
+
+/* Display */
+.block {
+	display: block;
+}
+
+/* Border */
+.border-vertical-thin {
+	border-left: var(--border-thin);
+	border-right: var(--border-thin);
+}
+
+.border-horizontal-thin {
+	border-top: var(--border-thin);
+	border-bottom: var(--border-thin);
+}
+
+.border-horizontal-thick {
+	border-top: var(--border-thick);
+	border-bottom: var(--border-thick);
+}
